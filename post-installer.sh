@@ -55,6 +55,10 @@ sudo dnf group upgrade --with-optional Multimedia -y
 # gsettings set org.gnome.desktop.interface gtk-theme 'Dracula' 
 # gsettings set org.gnome.desktop.wm.preferences theme 'Dracula'
 
+# wallpapers
+mkdir $HOME/.local/share/gnome-background-properties
+cp assets/yu-kato.xml assets/yu-kato-l.webp assets/yu-kato-d.webp $HOME/.local/share/gnome-background-properties
+
 # install orchis theme
 sudo dnf install -y sassc libsass
 git clone https://github.com/vinceliuice/Orchis-theme.git $HOME/.themes/orchis
@@ -111,3 +115,6 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize
 
 # set new windows centered
 gsettings set org.gnome.mutter center-new-windows true
+
+# hide desktop icons
+gsettings set org.gnome.desktop.background show-desktop-icons false

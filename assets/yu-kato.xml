@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>yu kato</name>
+    <filename>/home/f/.local/share/gnome-background-properties/yu-kato-l.webp</filename>
+    <filename-dark>/home/f/.local/share/gnome-background-properties/yu-kato-d.webp</filename-dark>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+</wallpapers>
