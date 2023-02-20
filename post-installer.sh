@@ -71,6 +71,8 @@ rm -rf $HOME/.themes/orchis
 gsettings set org.gnome.desktop.interface gtk-theme 'Orchis-Green-Dark' 
 gsettings set org.gnome.desktop.wm.preferences theme 'Orchis-Green-Dark' 
 
+echo "export GTH_THEME=Orchis-Green-Dark-Compact" >> $HOME/.bashrc
+
 # install whitesur, tela, and cursor icons
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git $HOME/.icons/whitesur
 chmod u+x $HOME/.icons/whitesur/install.sh
